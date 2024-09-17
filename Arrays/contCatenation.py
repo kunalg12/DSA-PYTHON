@@ -13,4 +13,4 @@ class Solution:
 solution = Solution()
 nums = [1, 2, 3]
 result = solution.getConcatenation(nums)
-print(result)  # Output: [1, 2, 3, 1, 2, 3]
+print(result)
