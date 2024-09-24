@@ -12,4 +12,3 @@ solution = Solution()
 s = "ace"
 t = "ahcge"
 result = solution.isSubSequence(s, t)
-print(result)
