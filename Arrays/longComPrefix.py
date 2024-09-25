@@ -1,5 +1,6 @@
 from typing import List
 
+
 class Solution:
     def longCommonPrefix(self, strs: List[str]) -> str:
         res = ""
@@ -9,6 +10,7 @@ class Solution:
                     return res
             res += strs[0][i]
         return res
+
 
 solution = Solution()
 strs = ["flower", "flow", "flight"]
