@@ -13,7 +13,7 @@ class Solution:
         return res
 
 
-numsRows = int(input(f"Enter number of rows to print : "))
+numsRows = int(input("Enter number of rows to print : "))
 solution = Solution()
 result = solution.pascalTriangle(numsRows)
 
