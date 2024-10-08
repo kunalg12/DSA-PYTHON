@@ -1,5 +1,6 @@
 class Solution:
-    def pattern(self):
+    @staticmethod
+    def pattern():
         ch = "A"
 
         for i in range(4, 0, -1):
