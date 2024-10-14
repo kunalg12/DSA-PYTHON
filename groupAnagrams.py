@@ -14,6 +14,6 @@ class Solution:
 
 
 solution = Solution()
-input_strs = ["eat", "tea", "tan", "ate", "nat", "bat"]
+input_strs = ["eat", "tea", "tan", "ate", "nat", "bat", "tab", "hat"]
 result = solution.groupAnagram(input_strs)
 print(result)
