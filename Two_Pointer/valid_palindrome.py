@@ -1,5 +1,6 @@
 class Solution:
-    def palindrome(self, s: str):
+    @staticmethod
+    def palindrome(s: str):
         # skip alapha-numeric characters
         left, right = 0, len(s) - 1
         while left < right:
