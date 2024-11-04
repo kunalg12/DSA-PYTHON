@@ -10,10 +10,10 @@ class Solution:
         for i in range(n):
             # last char of first word
             first_char = words[i][-1]
-            # next char of current word
+            # next char of current word 
             next_char = words[(i + 1) % n][0]
 
-            # comparing both char if they don't match its not circular
+            # comparing both char if they don't match it's not circular
             if first_char != next_char:
                 return False
         return True
