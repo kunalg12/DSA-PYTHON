@@ -24,3 +24,8 @@ class Solution:
 
         # Return the maximum count of candidates that have a particular bit set
         return max_count
+
+solution = Solution()
+candidates = [12,34,56]
+res = solution.largestCombination(candidates)
+print(res)
